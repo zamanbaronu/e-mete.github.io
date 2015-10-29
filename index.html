@@ -21,7 +21,7 @@
     
     <!-- Uses a transparent header that draws on top of the layout's background -->
 <style>
-.whip{position:absolute;top:0px;left:0px;width:100%;padding-top:50px;height:240px;background:rgba(0,0,0,0.4);text-align:center;color:white;font-size:48px;}
+.whip{position:absolute;top:0px;left:0px;width:100%;padding-top:80px;height:210px;background:rgba(0,0,0,0.4);text-align:center;color:white;font-size:48px;}
 .demo-layout-transparent {
   background: url('http://2.bp.blogspot.com/-va7_FsGBqRY/VjICUGUBJ-I/AAAAAAAA5FY/hL2s2Kz3hxg/s1600/Kordon_mini_mini.jpg') center / cover;
 }
@@ -36,6 +36,20 @@ line-height: 46px;}
 .mdl-layout__obfuscator, .mdl-layout__drawer-button, .mdl-layout__drawer, .mdl-layout__header, .mdl-layout__header--transparent, .is-casting-shadow{
 position:fixed;
 }
+
+
+.demo-card-wide.mdl-card {
+  width: 225px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('https://lh3.googleusercontent.com/yX9wdgzQcKRkmsnzehVquG-2-HKik3lk9esaOcLhVyDj2b9WI3aWJGrZ8vEJvUP__fc=w300') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
 .mdl-layout__container{position:static !important;height:auto !important;}
 </style>
 
@@ -65,10 +79,29 @@ position:fixed;
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="whip"><h1>E-mete</h1></div>
+    <div class="whip"><h1>E-Mete</h1></div>
   </main>
 </div>
     
+    
+    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Watme</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Meet Intelligent People. Lorem ipsum.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
     
     
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
