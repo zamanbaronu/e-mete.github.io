@@ -1,3 +1,9 @@
+var aiv = document.createElement('div');
+aiv.id = 'kd-secici';
+aiv.className = 'cp-small';
+document.getElementsByTagName('body')[0].appendChild(aiv);
+document.getElementById('kd-secici').innerHTML='<span onclick="this.parentNode.style.display=\'none\';">x</span> <div class="picker-wrapper"> <div id="picker" class="picker" style="background-color: rgb(255, 0, 0);"></div> </div> <div class="slide-wrapper"> <div id="slide" class="slide"></div> </div>';
+
 var fileref=document.createElement("link");
         fileref.setAttribute("rel", "stylesheet");
         fileref.setAttribute("type", "text/css");
